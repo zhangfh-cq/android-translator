@@ -41,14 +41,14 @@ public class NewWordUtil {
     //生词判断
     public static void judgeLegalWord(String word, Context context, AsyncHttpResponseHandler asyncHttpResponseHandler) throws JSONException {
         JSONObject judgeReqJsonObject = new JSONObject();
-        judgeReqJsonObject.put("auth_key", Translator.NEW_WORD_AUTH_KEY);
+        judgeReqJsonObject.put("auth_key", Translator.LEGAL_WORD_AUTH_KEY);
         judgeReqJsonObject.put("word", word);
         String postData = judgeReqJsonObject.toString();
 
         AsyncHttpClient asyncHttpClient = new AsyncHttpClient();
         StringEntity postDataEntity = new StringEntity(postData, "UTF-8");
 
-        asyncHttpClient.post(context, Translator.NEW_WORD_API_URL, postDataEntity, "charset=UTF-8", asyncHttpResponseHandler);
+        asyncHttpClient.post(context, Translator.LEGAL_WORD_API_URL, postDataEntity, "charset=UTF-8", asyncHttpResponseHandler);
     }
 
     // 存储生词记录到数据库

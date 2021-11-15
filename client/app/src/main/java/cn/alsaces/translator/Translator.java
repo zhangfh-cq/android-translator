@@ -11,8 +11,8 @@ public class Translator extends Application {
     public static final String BAIDU_TRANS_SECRET_KEY = "123456789abc";  // 百度翻译平台密钥
     public static final String IMAGE_TRANS_API_URL = "https://example.com/api/translate/image/";  // 图片翻译API地址
     public static final String IMAGE_TRANS_API_AUTH = "123456789abc";  // 图片翻译Key
-    public static final String NEW_WORD_API_URL = "https://example.com/api/legal-word/en/"; // 生词API地址
-    public static final String NEW_WORD_AUTH_KEY = "123456789abc"; // 生词Key
+    public static final String LEGAL_WORD_API_URL = "https://example.com/api/legal-word/en/"; // 生词API地址
+    public static final String LEGAL_WORD_AUTH_KEY = "123456789abc"; // 生词Key
     public static final String VERSION_CHECK_API_URL = "https://example.com/api/update/"; // 版本检查API地址
     public static final String VERSION_CHECK_AUTH_KEY = "123456789abc";  // 版本检查Key
 
