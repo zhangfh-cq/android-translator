@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/RootLayoutStyle">
+
+        <!--  界面提示  -->
+        <LinearLayout
+            android:id="@+id/setting_interface_tip_linear_layout"
+            style="@style/InterfaceTipLinearLayoutStyle">
+            <TextView
+                style="@style/InterfaceTipTextViewStyle"
+                android:text="@string/setting_interface_tip" />
+
+            <View
+                style="@style/SplitLineViewStyle" />
+        </LinearLayout>
+
+        <!--  设置按钮  -->
+        <ScrollView
+            android:id="@+id/setting_set_scroll_view"
+            android:layout_below="@id/setting_interface_tip_linear_layout"
+            style="@style/CommonScrollStyle">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+                <!--  语音翻译自动播报译文  -->
+                <Button
+                    android:id="@+id/setting_voice_auto_tts_button"
+                    style="@style/SettingButtonStyle"
+                    android:text="@string/setting_voice_auto_tts_button_text" />
+
+                <!--  英语自动播报发音类型  -->
+                <Button
+                    android:id="@+id/setting_eng_auto_tts_type_button"
+                    style="@style/SettingButtonStyle"
+                    android:text="@string/setting_eng_auto_tts_type_button_text" />
+
+                <!--  英语单词自动加入生词  -->
+                <Button
+                    android:id="@+id/setting_auto_add_new_word_button"
+                    style="@style/SettingButtonStyle"
+                    android:text="@string/setting_auto_add_new_word_button_text" />
+
+                <!--  清空所有翻译历史记录  -->
+                <Button
+                    android:id="@+id/setting_clear_all_history_button"
+                    style="@style/SettingButtonStyle"
+                    android:text="@string/setting_clear_all_history_button_text" />
+
+                <!--  翻译功能使用帮助  -->
+                <Button
+                    android:id="@+id/setting_use_help_button"
+                    style="@style/SettingButtonStyle"
+                    android:text="@string/setting_use_help_button_text" />
+
+                <!--  功能界面反馈建议  -->
+                <Button
+                    android:id="@+id/setting_feedback_button"
+                    style="@style/SettingButtonStyle"
+                    android:text="@string/setting_feedback_button_text" />
+
+                <!--  检查软件更新  -->
+                <Button
+                    android:id="@+id/setting_check_update_button"
+                    style="@style/SettingButtonStyle"
+                    android:text="@string/setting_check_update_button_text" />
+
+                <!--  关于翻译君  -->
+                <Button
+                    android:id="@+id/setting_about_button"
+                    style="@style/SettingButtonStyle"
+                    android:text="@string/setting_about_button_text" />
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

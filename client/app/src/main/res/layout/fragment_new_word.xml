@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/RootLayoutStyle">
+
+        <!--  界面提示  -->
+        <LinearLayout
+            android:id="@+id/new_word_interface_tip_linear_layout"
+            android:layout_alignParentTop="true"
+            style="@style/InterfaceTipLinearLayoutStyle">
+
+            <TextView
+                style="@style/InterfaceTipTextViewStyle"
+                android:text="@string/new_word_interface_tip" />
+
+            <View style="@style/SplitLineViewStyle" />
+        </LinearLayout>
+
+        <!--  生词记录  -->
+        <ScrollView
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/new_word_interface_tip_linear_layout"
+            style="@style/CommonScrollStyle"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:id="@+id/new_word_set_linear_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

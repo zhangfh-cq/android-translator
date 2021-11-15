@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <paths>
+        <root-path name="root_path" path="."/>
+        <!-- 拍照图片的路径 -->
+        <external-files-path
+            name="images"
+            path="Pictures" />
+    </paths>
+</resources>

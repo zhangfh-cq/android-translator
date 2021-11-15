@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  具名  -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bright_gray">#FFD3D3D3</color>
+    <color name="dull_gray">#FF696969</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    <!--  通用  -->
+    <color name="common_text_color">#FF424c50</color>
+    <color name="common_text_clicked_color">#FF685ea1</color>
+    <color name="common_text_background_color">#FFEFEEF5</color>
+    <color name="common_text_clicked_background_color">#FFe0deec</color>
+    <color name="common_button_color">#FF867eb4</color>
+    <color name="common_button_clicked_color">#FF685ea1</color>
+    <color name="common_button_border_color">#FFFEFEFE</color>
+    <color name="common_progress_bar_color">#FF685ea1</color>
+
+    <!--  导航  -->
+    <color name="nav_radio_group_background_color">#FFF8F8F8</color>
+    <color name="nav_radio_button_text_color">#FF9B9B9B</color>
+    <color name="nav_radio_button_checked_text_color">#FF685ea1</color>
+
+    <!--  文本  -->
+    <color name="text_edit_text_hint_color">#FF9B9B9B</color>
+    <color name="text_clear_input_background_color">#FF867eb4</color>
+    <color name="text_clear_input_clicked_background_color">#FF685ea1</color>
+
+    <!--  其他  -->
+    <color name="split_line_color">#FFDCDCDC</color>
+    <color name="record_text_color">#FF6E6E70</color>
+    <color name="dialog_button_color">#FFF1F1F1</color>
+    <color name="dialog_button_clicked_color">#FFe4e4e4</color>
+</resources>

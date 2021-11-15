@@ -1,0 +1,45 @@
+<resources>
+    <!--  启动  -->
+    <string name="launch_icon_desc">ICON</string>
+    <string name="launch_slogan">自 由 沟 通 全 世 界</string>
+    <string name="launch_copyright">翻译君 ©2021 By Alsaces</string>
+
+    <!--  导航  -->
+    <string name="nav_radio_button_text">文本</string>
+    <string name="nav_radio_button_voice">语音</string>
+    <string name="nav_radio_button_photo">拍照</string>
+    <string name="nav_radio_button_new_word">生词</string>
+    <string name="nav_radio_button_setting">设置</string>
+
+    <!--  文本  -->
+    <string name="text_trans_interface_tip">文本翻译</string>
+    <string name="text_trans_input_edit_hint">请在此输入要翻译的文本</string>
+    <string name="text_trans_clear_input_text">X</string>
+    <string name="text_trans_translate_button_text">点击翻译</string>
+
+    <!--  语音  -->
+    <string name="voice_trans_interface_tip">语音翻译</string>
+    <string name="voice_trans_speak_button_text">按住说话</string>
+
+    <!--  拍照  -->
+    <string name="photo_trans_interface_tip">拍照翻译</string>
+    <string name="photo_trans_photo_button_text">点击拍照</string>
+
+    <!--  生词  -->
+    <string name="new_word_interface_tip">生词记录</string>
+
+    <!--  设置  -->
+    <string name="setting_interface_tip">应用设置</string>
+    <string name="setting_voice_auto_tts_button_text">语音翻译自动播报译文</string>
+    <string name="setting_eng_auto_tts_type_button_text">英语自动播报发音类型</string>
+    <string name="setting_auto_add_new_word_button_text">英语单词自动加入生词</string>
+    <string name="setting_clear_all_history_button_text">清空所有翻译历史记录</string>
+    <string name="setting_use_help_button_text">翻译功能使用帮助</string>
+    <string name="setting_feedback_button_text">功能界面反馈建议</string>
+    <string name="setting_check_update_button_text">检查软件更新</string>
+    <string name="setting_about_button_text">关于翻译君</string>
+
+    <!--  其他  -->
+    <string name="app_name">翻译君</string>
+    <string name="exchange_lang_text">⇆</string>
+</resources>

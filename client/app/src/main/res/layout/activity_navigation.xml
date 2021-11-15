@@ -1,0 +1,54 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--  Fragment容器  -->
+        <FrameLayout
+            android:id="@+id/nav_container_frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/nav_radio_group" />
+
+        <!--  导航栏  -->
+        <RadioGroup
+            android:id="@+id/nav_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:background="@color/nav_radio_group_background_color">
+
+            <RadioButton
+                android:id="@+id/text_radio_button"
+                style="@style/NavigationRadioButtonStyle"
+                android:text="@string/nav_radio_button_text"/>
+
+            <RadioButton
+                android:id="@+id/voice_radio_button"
+                style="@style/NavigationRadioButtonStyle"
+                android:text="@string/nav_radio_button_voice"/>
+
+            <RadioButton
+                android:id="@+id/photo_radio_button"
+                style="@style/NavigationRadioButtonStyle"
+                android:text="@string/nav_radio_button_photo"/>
+
+            <RadioButton
+                android:id="@+id/new_word_radio_button"
+                style="@style/NavigationRadioButtonStyle"
+                android:text="@string/nav_radio_button_new_word"/>
+
+            <RadioButton
+                android:id="@+id/setting_radio_button"
+                style="@style/NavigationRadioButtonStyle"
+                android:text="@string/nav_radio_button_setting" />
+        </RadioGroup>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/clear_all_edit_text_view.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/clear_all_edit_text_view_clicked.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/clear_all_edit_view_selector.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/clear_all_input_text_view.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/clear_all_input_text_view_clicked.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/clear_all_input_text_view_selector.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/clear_all_input_view_selector.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/clear_input_text_view.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/clear_input_text_view_clicked.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/clear_input_text_view_selector.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/common_button_selector.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/common_image_view.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/common_text_view.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/common_text_view_click.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/common_text_view_clicked.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/common_text_view_selector.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/delete_all_history_button.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/delete_all_history_button_click.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/delete_all_new_word_button.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/delete_all_new_word_button_click.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/delete_history_button_click.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/delete_new_word_button_click.xml" value="0.1" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/dialog_button_selector.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/edit_clear_all_text_view_clicked.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/edit_clear_all_text_view_selector.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/edit_clear_all_view.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/edit_text_clear_all_view.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/navigation_button_selector.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/style_delete_all_history_button-click.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/style_delete_all_history_button.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/style_delete_all_history_button_click.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/style_delete_history_button_click.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable-v24/text_view_selector.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/button_click_style.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/common_button.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/common_button_click.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/common_button_clicked.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/common_edit_view.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/common_setting_button.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/common_text_selector.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/common_text_view.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/delete_history_button.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/delete_new_word_button.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/edit_layout.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/edit_linear_layout.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/edit_text_cursor.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/ic_exchange.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/ic_icon.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/nav_button_selector.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/navigation_button_selector.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/navigation_view_selector.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/selector_navigation_button.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/setting_button.xml" value="0.1" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/style_button_click.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/style_common_button.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/style_common_edit_view.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/style_common_text_view.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/style_delete_history_button.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/text_trans_input_linear_layout.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/translucent_button.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/translucent_button_click.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/translucent_delete_history_button.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/translucent_edit.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/translucent_setting_button.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/translucent_text_view.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/drawable/view.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/layout/activity_launch.xml" value="0.18385416666666668" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/layout/activity_main.xml" value="0.17028985507246377" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/layout/activity_navigation.xml" value="0.17028985507246377" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/layout/custom_alert_dialog.xml" value="0.18385416666666668" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/layout/custom_dialog_title.xml" value="0.1" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/layout/custom_progress_dialog.xml" value="0.18385416666666668" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/layout/fragment_layout.xml" value="0.18385416666666668" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/layout/fragment_more.xml" value="0.16666666666666666" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/layout/fragment_new_word.xml" value="0.18385416666666668" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/layout/fragment_photo.xml" value="0.18385416666666668" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/layout/fragment_setting.xml" value="0.18385416666666668" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/layout/fragment_text.xml" value="0.16666666666666666" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/layout/fragment_voice.xml" value="0.18385416666666668" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/layout/fragment_word.xml" value="0.18385416666666668" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/layout/item_language_choose.xml" value="0.18385416666666668" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/layout/item_language_choose_speaker.xml" value="0.14666666666666667" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/layout/my_alert_dialog.xml" value="0.18385416666666668" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/layout/my_dialog.xml" value="0.18385416666666668" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2" />
+        <entry key="..\:/Code/Android/Translator/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2" />
+        <entry key="..\:/Programs/ProgramData/AndroidStudioCache/.gradle/caches/transforms-3/8190198988f5dc1a233e0c21b4a74ad8/transformed/appcompat-1.2.0/res/layout/support_simple_spinner_dropdown_item.xml" value="0.18385416666666668" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

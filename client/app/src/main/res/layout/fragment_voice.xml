@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/RootLayoutStyle">
+
+        <!--  界面提示  -->
+        <LinearLayout
+            android:id="@+id/voice_interface_tip_linear_layout"
+            android:layout_alignParentTop="true"
+            style="@style/InterfaceTipLinearLayoutStyle">
+            <TextView
+                style="@style/InterfaceTipTextViewStyle"
+                android:text="@string/voice_trans_interface_tip" />
+
+            <View
+                style="@style/SplitLineViewStyle" />
+        </LinearLayout>
+
+        <!--  Spinner  -->
+        <LinearLayout
+            android:id="@+id/voice_spinner_set_linear_layout"
+            android:layout_below="@+id/voice_interface_tip_linear_layout"
+            style="@style/SpinnerSetLinearLayoutStyle">
+
+            <Spinner
+                android:id="@+id/voice_from_lang_spinner"
+                style="@style/CommonSpinnerStyle" />
+
+            <TextView
+                android:id="@+id/voice_exchange_lang_text_view"
+                style="@style/ExchangeLangTextViewStyle"
+                android:text="@string/exchange_lang_text"/>
+
+            <Spinner
+                android:id="@+id/voice_to_lang_spinner"
+                style="@style/CommonSpinnerStyle" />
+        </LinearLayout>
+
+        <!--  历史记录  -->
+        <ScrollView
+            android:layout_above="@+id/voice_trans_button"
+            android:layout_below="@+id/voice_spinner_set_linear_layout"
+            style="@style/CommonScrollStyle">
+
+            <LinearLayout
+                android:id="@+id/voice_history_set_linear_layout"
+                style="@style/HistorySetLinearLayoutStyle">
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <!--  翻译按钮  -->
+        <Button
+            android:id="@+id/voice_trans_button"
+            android:layout_alignParentBottom="true"
+            style="@style/CommonButtonStyle"
+            android:text="@string/voice_trans_speak_button_text" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
